@@ -1,0 +1,22 @@
+I made three circuit projects here in the tinkercad using the following sensors-
+1. Ultrasonic distance sensor
+2. gas sensor and temperature sensor
+3. force sensor and tilt sensor
+
+project 1 - Ultrasonic Distance Sensor:
+   I watched all the videos provided by the mars club on task#1 discription.From there I got so much of idea about how to do this task.
+In this task as it was my first try so i just applies simple sensor knowledge and used ultrasonic sensor for tracking the distance of 
+the obstacle in the range of the sensor.As we are going to deal with mars rover so I thought it will be useful for that purpose.
+Now for the coding i watched so many videos for how to code for the particular sensor. Thats how this circuit was made.
+
+
+project 2 - Gas sensor and Temperature sensor:
+while searching about the Gas sensor i got to know that this sensor sences the concentration and presence of gas and according to that
+it changes the potential diffenrence.thus we can detect the presence of gas in the atmosphere.
+Temperature sensor actually measures the temperature and detects it on the screen. for getting the output i used the LED and piezo
+so that i can get the alarms if the reading  goes beyond the fixed limits in the code.
+
+project 3 - Force sensor and Tilt sensor
+force sensor besically measures the amount of pressure force so wanted to use that and i used another tilt sensor with that as we  
+needed minimum of 2 sensors in each projectalso for this for getting the output responces i used piezo and a LED. here i learned
+the two codes seperatly and then finally combined the both codes. and surprisingly it worked.
