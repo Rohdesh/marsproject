@@ -1,0 +1,44 @@
+// C++ code
+//
+int ForceSensor;
+int TiltSensor;
+int LED=13;
+int InPin=7;
+int piezo=6;
+void setup()
+{
+  pinMode(A0,INPUT);
+  pinMode(InPin,INPUT);
+  pinMode(LED,OUTPUT);
+  pinMode(piezo,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{ int val=digitalRead(InPin); 
+  int analogreading=analogRead(ForceSensor);
+ if(val==0)
+ {
+  digitalWrite(LED, HIGH);
+ }
+ 
+  else
+  {
+    digitalWrite(LED, LOW);
+  }
+ 
+ Serial.print("force sensor reading=");
+ Serial.println(analogreading);
+ 
+ if(analogreading<=100)
+ {
+  digitalWrite(piezo, LOW);
+ }
+ 
+  else
+  {
+    digitalWrite(piezo, HIGH);
+  }
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
