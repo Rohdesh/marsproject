@@ -1,0 +1,53 @@
+// C++ code
+//
+float temp;
+float vout;
+float vout1;
+int LED=13;
+int GasSensor;
+int piezo=7;
+
+
+void setup()
+{
+  pinMode(A0,INPUT);
+  pinMode(A1,INPUT);
+  pinMode(LED,OUTPUT);
+  pinMode(piezo,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{ 
+  vout=analogRead(A0);
+  vout1=(vout/1023)*5000;
+  temp=(vout1-500)/10;
+  GasSensor=analogRead(A1);
+  if(temp>=80)
+  {
+    digitalWrite(LED,HIGH);
+  }
+  else
+  {
+    digitalWrite(LED,LOW);
+  }
+  if(GasSensor>=300)
+  {
+    digitalWrite(piezo,HIGH);
+  }
+  else
+  {
+    digitalWrite(piezo,LOW);
+  }
+  
+  Serial.print("temp in DegreeC=");
+  Serial.print(" ");
+  Serial.print(temp);
+  Serial.print("\t");
+  Serial.print("GasSensor=");
+  Serial.print(" ");
+  Serial.print(GasSensor);
+  Serial.println();
+  delay(1000);
+  
+}
