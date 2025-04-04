@@ -3,11 +3,11 @@ I made three circuit projects here in the tinkercad using the following sensors-
 2. gas sensor and temperature sensor
 3. force sensor and tilt sensor
 
-project 1 - Ultrasonic Distance Sensor:
+project 1 - flex Sensor and push button:
    I watched all the videos provided by the mars club on task#1 discription.From there I got so much of idea about how to do this task.
-In this task as it was my first try so i just applies simple sensor knowledge and used ultrasonic sensor for tracking the distance of 
-the obstacle in the range of the sensor.As we are going to deal with mars rover so I thought it will be useful for that purpose.
-Now for the coding i watched so many videos for how to code for the particular sensor. Thats how this circuit was made.
+In this task i just applies basic sensor knowledge and used flex sensor for tracking the bending of 
+the  strip of the sensor. flex sensors are interesting sensors and they have wide range of application such as in robotic arms and etc. 
+Simulates a game controller: bending the glove (flex sensor) moves a servo, and push button triggers an action. Displays values on the serial monitor.
 
 
 project 2 - Gas sensor and Temperature sensor:
