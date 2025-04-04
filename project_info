@@ -1,11 +1,11 @@
 I made three circuit projects here in the tinkercad using the following sensors-
-1. Ultrasonic distance sensor
+1. Flex sensor and push button
 2. gas sensor and temperature sensor
 3. force sensor and tilt sensor
 
 project 1 - flex Sensor and push button:
    I watched all the videos provided by the mars club on task#1 discription.From there I got so much of idea about how to do this task.
-In this task i just applies basic sensor knowledge and used flex sensor for tracking the bending of 
+In this task i just applied basic sensor knowledge and used flex sensor for tracking the bending of 
 the  strip of the sensor. flex sensors are interesting sensors and they have wide range of application such as in robotic arms and etc. 
 Simulates a game controller: bending the glove (flex sensor) moves a servo, and push button triggers an action. Displays values on the serial monitor.
 
